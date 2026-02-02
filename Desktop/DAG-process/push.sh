@@ -1,5 +1,5 @@
 #!/bin/bash
-# push.sh — commit and push everything to GitHub
+
 
 
 git add .
