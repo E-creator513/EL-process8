@@ -1,13 +1,17 @@
 #!/bin/bash
-# push.sh — commit and push everything to GitHub
 
+# Auto commit message or default one
+MSG=${1:-"update"}
 
+# Add all changes
 git add .
-git commit -m "Rename project folder"
-git push
 
-git commit -m "Update Airflow DAGs and Docker setup"
+# Commit only if there are changes
+if git diff --cached --quiet; then
+  echo "No changes to commit."
+else
+  git commit -m "$MSG"
+fi
 
-git remote add origin https://github.com/E-creator513/EL-process8.git
-
+# Push current branch
 git push origin $(git rev-parse --abbrev-ref HEAD)
