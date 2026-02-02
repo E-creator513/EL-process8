@@ -3,7 +3,8 @@
 
 
 git add .
-
+git commit -m "Rename project folder"
+git push
 
 git commit -m "Update Airflow DAGs and Docker setup"
 
