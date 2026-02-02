@@ -210,10 +210,13 @@ switched to db iot
 ```
 ## Interaction:Airflow Dag
 There are two ways to interact with this database ,through the index on address http://127.0.0.1:5000 with a landing page like this 
-![image](https://github.com/user-attachments/assets/0b5f0dfe-5a08-4b59-b492-b6e05e90aca2)
 
-for a search comand
-![image](https://github.com/user-attachments/assets/77e97a54-c0cd-49ea-88cd-05562f40ff0e)
+for db
+![image](https://github.com/E-creator513/EL-process8/blob/master/OTW.png)
+
+And to check if data is added its 
+![image](https://github.com/E-creator513/EL-process8/blob/master/otw2.png)
+
  
 ## Terminal
 Through the git-bash terminal with these commands 
@@ -332,5 +335,5 @@ The result should be
  2026-01-24 12:55:15.307 |       25.11 |    56.94 | 38.45
 
 ```
-![image](https://github.com/user-attachments/assets/77e97a54-c0cd-49ea-88cd-05562f40ff0e)
+
 
