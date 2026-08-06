@@ -1,20 +1,6 @@
-# POSTGRES AND MONGDB
 
-Hello! This project initiates an introduction and demonstrates a basic ETL pipeline using **Airflow**, **MongoDB**, and **PostgreSQL** running in Docker.  
-## Runs and Execution
 
-To start the App, run the following command after git clone{{udi}}
 
-```bash
-$ docker compose up --build 
-```
-##  ElasticSearch Activation
-
-You can navigate to the Dockerfiles to start the cluster
-
-```bash
-$ docker-compose up --build
-```
 
 I have already added the mock data in the data-node but just in case you have new data(with arrays of objects),first run the file convert.py and name it mocks_es_format.json
 After the docker-compose is up you should check the health status in the terminal and see the result in a browser extn
